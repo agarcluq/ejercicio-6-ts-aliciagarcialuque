@@ -33,7 +33,7 @@ class Developer extends Person{
     constructor(
       name:string,
       age:number,
-      saySomething:Function,
+      saySomething:(text:string)=>void,
       bestLanguage:Function)
       {
 
